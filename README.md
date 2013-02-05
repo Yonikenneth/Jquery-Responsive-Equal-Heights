@@ -9,6 +9,7 @@ Change "#your id" to the ID of the columns you want to have the same heights.
 
 That's it!
 
+<script>
   $.fn.equalHeight = function() {
       var maxHeight = 0;
       return this.each(function(index, box) {
@@ -25,3 +26,4 @@ That's it!
       $('#your id').css('height','auto');
       $('#your id').equalHeight();
   });
+</script>
